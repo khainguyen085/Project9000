@@ -14,4 +14,5 @@ function newFrame(){
         print.innerHTML += icon;
     }
 }
+//chưa in được phía bên phải của hình
 newFrame();
