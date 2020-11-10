@@ -13,3 +13,5 @@ const vowelNearestDistance = (str = '') => {
    return s.split('').map((el, ind) => nearest(vowelIndex, ind));
 };
 console.log(vowelNearestDistance(str));
+
+//bài odd square patch. xét điểm neo. rồi cộng tổng các số sau khi đã đổi thành số chẵn lẻ. nếu tạo thành khác không thì out vòng lập.
