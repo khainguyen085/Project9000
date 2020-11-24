@@ -5,8 +5,9 @@ export default class RandomMeal extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            meals: [],
+            meals: [],          
         };
+        this.getMeal = this.getMeal.bind(this)
     }
     getMeal() {
         axios.get('https://www.themealdb.com/api/json/v1/1/random.php')
@@ -25,7 +26,7 @@ export default class RandomMeal extends React.Component {
                 <div className="hungry">
                     <h2>Bạn Đang đói bụng?</h2>
                     <p>Muốn gợi ý làm món gì đó không? Bấm vào nút bên dưới nhé</p>
-                    <button className="get-meal" onClick={this.getMeal.bind(this)}>Xem thử</button>
+                    <button className="get-meal" onClick={this.getMeal}>Xem thử</button>
                 </div>
 
                 <div>
@@ -55,7 +56,6 @@ export default class RandomMeal extends React.Component {
                                 <div className="video-resource">
                                     <h3>Video hướng dẫn</h3>
                                     <iframe width="420" height="315" src={`https://www.youtube.com/embed/${meal.strYoutube.slice(-11)}`}>
-
                                     </iframe>
                                 </div>
                             </div>
