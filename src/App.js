@@ -6,19 +6,22 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state={}
-    this.handleSub=this.handleSub.bind(this)
+    this.handleSubmit = this.handleSubmit.bind(this)
+    this.handleKeyDown = this.handleKeyDown.bind(this)
   }
-  handleSub(e){
-    e.preventDefault()
+  handleSubmit(){
     console.log('hello')
+  }
+  handleKeyDown(){
+    console.log('done')
   }
   render() {
     return (
       <div className="App">
         <h1>Weather App</h1>
         <form>
-          <Seachbar/>
-          <button onChange={this.handleSub} type='submit'>Search</button>
+          <Seachbar handleKeyDown={this.handleKeyDown} />
+          <button onChange={this.handleSubmit} type='submit'>Search</button>
         </form>
       </div>
     );
