@@ -1,0 +1,15 @@
+.Container{
+    width: 49%;
+    height: 350px;
+    background-color:teal;
+    float:left;
+    margin-left:10px;
+    margin-bottom:30px
+}
+h2{
+    margin-right:70%
+}
+img{
+    float:left;
+    margin-left:10px;
+}
