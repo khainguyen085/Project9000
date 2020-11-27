@@ -10,10 +10,27 @@ h1{
 .delete{
   position: relative;;
 }
+.sign-up{
+  width: 250px;
+  height: 300px;
+}
+.sign-in{
+  width: 250px;
+  height: 400px;
+}
+.crossed-line {
+  text-decoration: line-through;
+}
+.t100{
+  text-decoration: line-through;
+}
+.t001{
+  text-decoration: none;
+}
 .container{
   border:1px solid black;
   border-radius: 5px;
-  width: 550px;
+  width: 580px;
   margin-left:450px;
   margin-top:20px;
   display:flex;
@@ -25,7 +42,7 @@ h1{
   margin-left: 10px;
 }
 button{
-  width: 66px;
+  width: 60px;
 }
 .smallContainer{
   margin-left:20px;
