@@ -80,6 +80,7 @@ export default class TodoList extends React.Component {
                     <button>Đăng nhập</button>
                 </form>
             </div>
+            
         const hideS = this.state.hideSignUp ? signUp : '';
         const hideI = this.state.hideSignIn ? signIn : '';
         const li_class = this.state.line ? 't100' : 't001';
