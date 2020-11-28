@@ -1,9 +1,10 @@
 import React from 'react'
-import {Friends} from './Friends'
+import Friends from './Friends'
+import '../css/FriendContainer.css'
 export default function FriendContainer(){
     return(
-        <>
-            <Friends data={name}/>
-        </>
+        <div className='bigContainer'>
+            <Friends/>
+        </div>
     )
 }

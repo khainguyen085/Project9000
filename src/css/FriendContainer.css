@@ -1,0 +1,7 @@
+.bigContainer{
+    width: 40%;
+    height: 610px;
+    border:1px solid black;
+    float:left;
+    background-color: teal;
+}

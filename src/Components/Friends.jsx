@@ -1,4 +1,5 @@
 import React from 'react'
+import '../css/Friends.css'
 
 export default class Friends extends React.Component{
     constructor(props){
@@ -13,8 +14,8 @@ export default class Friends extends React.Component{
     render(){
         return(
             <div className='avatar'>
-                <h1>{this.name}</h1>
-                <img src={this.img}></img>
+                <h1>{this.state.name}</h1>
+                <img src={this.state.img}></img> <br/>
                 <button>Login</button>
                 <button>LogOut</button>
             </div>

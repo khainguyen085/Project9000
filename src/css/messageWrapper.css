@@ -1,0 +1,15 @@
+.messageWrapper{
+    border:1px solid black;
+    width: 59.68%;
+    height: 550px;
+    float:right;
+    background-color: silver;
+}
+.inputBottom input{
+    width: 59.20%;
+    height: 54px;
+}
+.rightContainer{
+    width: 100%;
+    height: 100%;
+}
