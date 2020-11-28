@@ -6,7 +6,7 @@ export default function Header() {
             <h1>Bạn đang tìm sách gì?</h1>
             <input placeholder='Nhập sách bạn cần tìm...' onKeyPress={(e)=>{
                 if(e.key === 'enter'){
-                    this.props.onClick();
+                    this.props.handleClick();
                 }
             }} />
             <button className='button'>Search</button>
