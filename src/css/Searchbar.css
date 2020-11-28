@@ -1,0 +1,14 @@
+.header{
+    text-align: center;
+}
+.header input{
+    width: 500px;
+    height: 30px;
+    background-color:silver;
+}
+.header h1{
+    color: chocolate;
+}
+.bigContainer{
+    background-color: teal;
+}
