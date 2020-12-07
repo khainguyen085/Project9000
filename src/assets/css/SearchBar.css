@@ -1,0 +1,48 @@
+.searchContainer{
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    background-color: red;
+    background-image: url('https://ca-times.brightspotcdn.com/dims4/default/2336f1c/2147483647/strip/true/crop/2042x1148+0+0/resize/1486x835!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F0a%2Fce%2F3fc5dc0293596cd57be2baff78c0%2Fla-1555447008-bjmls16ohs-snap-image');
+}
+.miniSearch{
+    text-align: center;
+    padding-top: 100px;
+}
+.miniSearch h1{
+    font-size: 65px;
+    color:white;
+}
+span{
+    font-size: 65px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.bigSearch{
+    text-align: center;
+    background-color: white;
+    width: 800px;
+    margin-left: 250px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.bigSearch input{
+    width: 700px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.bigSearch img{
+    width: 30px;
+    padding-top: 10px;
+    position: absolute;
+}
+input:focus {     
+       outline: 0;     
+       outline-style: none;     
+       outline-width: 0; 
+}

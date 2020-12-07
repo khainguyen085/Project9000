@@ -1,0 +1,26 @@
+.Itemscontainer{
+    width: 24%;
+    /* border: 3px solid #fafafa; */
+    border: 2px solid silver;
+    display: block;
+    margin-top: 30px;
+    margin-left: 7px;
+    /* margin-bottom: -100px; */
+    float:left;
+}
+.imgWrapper{
+    width: 100%
+}
+.imgWrapper img{
+    width: 250px;
+}
+.textContainer{
+    /* background-color: #fafafa; */
+    background-color: silver;
+}
+button{
+    width: 70px;
+    padding: 2px;
+    margin-left: 2px;
+    cursor: pointer;
+}
