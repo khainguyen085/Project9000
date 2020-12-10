@@ -2,7 +2,7 @@ import React from "react";
 import Title from "../Title";
 import CartColumns from "./CartColumns";
 import EmptyCart from "./EmptyCart";
-import { ProductComsumer, ProductConsumer } from "../../context";
+import { ProductConsumer } from "../../context";
 import CartList from './CartList'
 import CartTotals from './CartTotals'
 export default class Cart extends React.Component {
