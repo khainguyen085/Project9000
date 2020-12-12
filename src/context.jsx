@@ -96,7 +96,7 @@ class ProductProvider extends React.Component {
     product.count = product.count -1 ;
 
     if(product.count === 0){
-        this.removeItem(id)
+        this.removeItem() 
     }
     else{
         product.total = product.count * product.price;
