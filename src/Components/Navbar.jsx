@@ -31,6 +31,7 @@ export default class Navbar extends React.Component{
 }
 
 const NavWrapper = styled.nav`
+// position:fixed;
 background: var(--mainBlue);
 .nav-link{
     color:var(--mainWhite)!important;
